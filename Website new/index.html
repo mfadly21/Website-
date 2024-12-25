@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Biodata Diri</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Selamat Datang di Website Biodata Saya</h1>
+        <nav>
+            <ul>
+                <li><a href="#home" onclick="showSection('home')">Home</a></li>
+                <li><a href="#biodata" onclick="showSection('biodata')">Biodata</a></li>
+                <li><a href="#pendidikan" onclick="showSection('pendidikan')">Riwayat Pendidikan</a></li>
+                <li><a href="#hobi" onclick="showSection('hobi')">Hobi</a></li>
+                <li><a href="#kontak" onclick="showSection('kontak')">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Konten Halaman -->
+    <main>
+        <!-- Home -->
+        <section id="home" class="section">
+            <h2>Home</h2>
+            <p>Halo! Selamat datang di website sederhana saya. Silakan navigasi ke menu lainnya untuk mengetahui lebih banyak tentang saya.</p>
+        </section>
+
+        <!-- Biodata -->
+        <section id="biodata" class="section" style="display: none;">
+            <h2>Biodata Diri</h2>
+            <ul>
+                <li><strong>Nama:</strong> Siapo</li>
+                <li><strong>Umur:</strong> 19 Tahun</li>
+                <li><strong>Alamat:</strong> Bengkulu, Indonesia</li>
+                <li><strong>Email:</strong> siapaaja@gmail.com</li>
+            </ul>
+        </section>
+
+        <!-- Riwayat Pendidikan -->
+        <section id="pendidikan" class="section" style="display: none;">
+            <h2>Riwayat Pendidikan</h2>
+            <ul>
+                <li>SD Negeri 1 Bengkulu (2012 - 2017)</li>
+                <li>SMP Negeri 1 Bengkulu (2017 - 2020)</li>
+                <li>SMA Negeri 1 Bengkulu (2020 - 2023)</li>
+                <li>Universitas Indonesia, Teknik Informatika (2023 - Sekarang)</li>
+            </ul>
+        </section>
+
+        <!-- Hobi -->
+        <section id="hobi" class="section" style="display: none;">
+            <h2>Hobi</h2>
+            <ul>
+                <li>Bermain Sepak Bola</li>
+                <li>Membaca Buku</li>
+                <li>Bermain Alat Musik</li>
+                <li>Joging </li>
+            </ul>
+        </section>
+
+        <!-- Kontak -->
+        <section id="kontak" class="section" style="display: none;">
+            <h2>Kontak</h2>
+            <p>Anda dapat menghubungi saya melalui:</p>
+            <ul>
+                <li><strong>Email:</strong> siapaaja@gmail.com</li>
+                <li><strong>Telepon:</strong> 0812********</li>
+                <li><strong>Instagram:</strong> @siapaaja22</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Siapaaja. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
